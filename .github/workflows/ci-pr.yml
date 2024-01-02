@@ -28,7 +28,7 @@ jobs:
 
       - name: Get changed files
         id: get-changed-files
-        uses: tj-actions/changed-files@v27
+        uses: tj-actions/changed-files@v41
 
       - name: Retrieve and build solutions from changed files
         id: build-changed-projects
